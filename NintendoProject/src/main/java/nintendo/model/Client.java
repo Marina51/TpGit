@@ -1,17 +1,17 @@
 package nintendo.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Client {
 	private String nom;
 	private String prenom;
-	private List<Jeu> achat;
+	private List<Jeu> achat = new ArrayList();
 	
-		public Client(String nom, String prenom, List<Jeu> achat) {
+		public Client(String nom, String prenom) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
-		this.achat = achat;
 	}
 
 	public String getNom() {
@@ -37,6 +37,13 @@ public class Client {
 	public void setAchat(List<Jeu> achat) {
 		this.achat = achat;
 	}
+
+	@Override
+	public String toString() {
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", achat=" + achat + "]";
+	}
+	
+	
 
 	
 }
