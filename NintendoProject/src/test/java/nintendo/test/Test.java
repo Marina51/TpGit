@@ -1,5 +1,7 @@
 package nintendo.test;
 
+import nintendo.model.Adresse;
+import nintendo.model.Boutique;
 import nintendo.model.Console;
 
 import nintendo.model.Jeu;
@@ -18,6 +20,10 @@ public class Test {
 		Jeu smashbross = new Jeu("Smash Bross",wii);
 		Jeu Fornite = new Jeu("Fortnite",xbox);
 		Jeu pokemon = new Jeu("Pokemon",wii);
+		
+		Adresse adresse1 = new Adresse(15,"rue","Nantes");
+		Boutique boutique1 = new Boutique("Lala", adresse1);
+		
 	}
 
 }
