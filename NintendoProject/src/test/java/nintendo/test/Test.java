@@ -1,5 +1,9 @@
 package nintendo.test;
 
+import nintendo.model.Console;
+
+import nintendo.model.Jeu;
+
 public class Test {
 
 	public static void main(String[] args) {
