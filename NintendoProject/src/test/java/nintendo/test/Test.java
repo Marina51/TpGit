@@ -32,7 +32,7 @@ public class Test {
 		
 		Client c1 = new Client("John", "Doe");
 		Client c2 = new Client("Jane","Doe");
-		Client c1 = new Client("Toto", "Toto");
+		
 		
 		List<Jeu> achat = c1.getAchat();
 		Collections.addAll(achat, zelda, mario, smashbross, Fornite, pokemon );
