@@ -3,9 +3,9 @@ package nintendo.model;
 public class Boutique {
 
 	protected String nom;
-	protected String adresse;
+	protected Adresse adresse;
 	
-	public Boutique(String nom, String adresse) {
+	public Boutique(String nom, Adresse adresse) {
 		this.nom = nom;
 		this.adresse = adresse;
 	}
@@ -18,11 +18,11 @@ public class Boutique {
 		this.nom = nom;
 	}
 
-	public String getAdresse() {
+	public Adresse getAdresse() {
 		return adresse;
 	}
 
-	public void setAdresse(String adresse) {
+	public void setAdresse(Adresse adresse) {
 		this.adresse = adresse;
 	}
 
