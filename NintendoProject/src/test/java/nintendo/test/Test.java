@@ -1,7 +1,7 @@
 package nintendo.test;
 
+import nintendo.model.Client;
 import nintendo.model.Console;
-
 import nintendo.model.Jeu;
 
 public class Test {
@@ -18,6 +18,11 @@ public class Test {
 		Jeu smashbross = new Jeu("Smash Bross",wii);
 		Jeu Fornite = new Jeu("Fortnite",xbox);
 		Jeu pokemon = new Jeu("Pokemon",wii);
+		
+		
+		Client c1 = new Client("John", "Doe");
+		Client c2 = new Client("Jane","Doe");
+		
 	}
 
 }
